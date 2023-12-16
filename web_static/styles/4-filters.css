@@ -1,0 +1,29 @@
+/*
+ * Filters style
+ */
+
+.filters {
+    height: 70px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+/* filters button */
+.filters button{
+    border-radius: 4px;
+    border: none;
+    float: right;
+    height: 48px;
+    width: 20%;
+    font-size: 18px;
+    margin: 12px 30px;
+    color: #ffffff;
+    background: #ff5a5f;
+}
+
+/*when the mouse is over*/
+.filters button:hover{
+    background-color: rgba(255, 90, 95, .9);
+}

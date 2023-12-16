@@ -1,0 +1,115 @@
+/*  Filters Style  */
+
+/* General Styles for Filters Container */
+.filters {
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Search Button Styles */
+.filters button {
+    font-size: 18px;
+    background-color: #ff5a5f;
+    height: 48px;
+    width: 20%;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    float: right;
+    margin: 12px 30px;
+}
+
+/* Change opacity to 90% when the mouse is on the button */
+.filters button:hover {
+    background-color: rgba(255, 90, 95, .9);
+}
+
+/* Locations and Amenities Styles */
+.filters .locations,
+.filters .amenities {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+
+/* Locations Styles */
+.filters .locations {
+    border-right: 1px solid #dddddd;
+}
+
+/* Location and Amenities Hover Effect */
+.filters .locations:hover,
+.filters .amenities:hover {
+    background-color: #fafafa;
+}
+
+/* Locations and Amenities Popover Menu */
+.filters .popover {
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover {
+    display: block;
+}
+
+.filters .locations ul {
+    padding: 6px 0;
+    list-style-type: none;
+}
+
+.filters .amenities ul {
+    list-style-type: none;
+}
+
+.filters .locations li {
+    margin: 0 auto 12px 3em;
+}
+
+.filters .amenities li {
+    margin: 12px auto 12px 30px;
+}
+
+/* Places Header Styles */
+.filters h2,
+.filters h3,
+.filters h4 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Header 2 Style */
+.filters h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px auto 0 30px;
+}
+
+/* Header 3 Style */
+.filters h3 {
+    font-size: 1.17em;
+    font-weight: 600;
+    height: 50%;
+    padding: 15.5px 0 0 30px;
+}
+
+/* Header 4 Style */
+.filters h4 {
+    font-size: 14px;
+    font-weight: 400;
+    height: 50%;
+    padding: 5px 0 12px 30px;
+}
+
